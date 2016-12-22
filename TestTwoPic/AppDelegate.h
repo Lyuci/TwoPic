@@ -2,8 +2,8 @@
 //  AppDelegate.h
 //  TestTwoPic
 //
-//  Created by 李娜 on 2016/10/9.
-//  Copyright © 2016年 李娜. All rights reserved.
+//  Created by Lyuci on 2016/10/9.
+//  Copyright © 2016年 Lyuci. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>

@@ -2,11 +2,12 @@
 //  AppDelegate.m
 //  TestTwoPic
 //
-//  Created by 李娜 on 2016/10/9.
-//  Copyright © 2016年 李娜. All rights reserved.
+//  Created by Lyuci on 2016/10/9.
+//  Copyright © 2016年 Lyuci. All rights reserved.
 //
 
 #import "AppDelegate.h"
+#import "LYC_FirstViewController.h"
 
 @interface AppDelegate ()
 
@@ -17,6 +18,15 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    self.window.backgroundColor = [UIColor whiteColor];
+    
+    LYC_FirstViewController *first = [[LYC_FirstViewController alloc] init];
+    UINavigationController *firstNav = [[UINavigationController alloc] initWithRootViewController:first];
+    self.window.rootViewController = firstNav;
+    
+    [self.window makeKeyAndVisible];
+    
     return YES;
 }
 

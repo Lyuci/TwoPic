@@ -2,7 +2,7 @@
 //  main.m
 //  TestTwoPic
 //
-//  Created by 李娜 on 2016/10/9.
+//  Created by Lyuci on 2016/10/9.
 //  Copyright © 2016年 李娜. All rights reserved.
 //
 
